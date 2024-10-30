@@ -27,6 +27,9 @@
     z-index: 100000;
 }
 
+#logo img{
+  height: 40px;
+}
   
 
 .navbar a{
@@ -127,6 +130,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+    object-fit: cover;
+    overflow: hidden;
 }
 .main-background-polo{
     background: url(images/polo.webp);
